@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+
+<body>
+    <h1>HTML Forms</h1>
+    <form action="/Submitted.html">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name"><br><br>
+        <label for="address">Address:</label><br>
+        <textarea name="address" id="address" cols="30" rows="10"></textarea><br>
+        <label for="city">City:</label>
+        <input type="text" name="city" id="city"><br><br>
+        <label for="postalCode">PostalCode:</label>
+        <select name="postalCode" id="postalCode">
+            <option value="282001">282001</option>
+            <option value="282002">282002</option>
+            <option value="282003">282003</option>
+            <option value="282004">282004</option>
+            <option value="282005">282005</option>
+            <option value="282006">282006</option>
+            <option value="282007">282007</option>
+            <option value="282008">282008</option>
+            <option value="282009">282009</option>
+            <option value="282010">282010</option>
+        </select><br><br>
+        <label for="transportMode">TransportMode:</label>
+
+        <input type="radio" name="transportMode" id="transportMode" value="Train">
+        <label for="Train">Train</label>
+        <input type="radio" name="transportMode" id="transportMode" value="Bus">
+        <label for="Bus">Bus</label>
+        <input type="radio" name="transportMode" id="transportMode" value="Car">
+        <label for="Car">Car</label>
+        <input type="radio" name="transportMode" id="transportMode" value="Bike">
+        <label for="Bike">Bike</label>
+        <input type="radio" name="transportMode" id="transportMode" value="others">
+        <label for="others">others</label><br><br>
+
+        <label>Skillsets:</label><br>
+        <input type="checkbox" id="skill1" name="skill1">
+        <label for="vehicle1"> I have a skill1</label><br>
+        <input type="checkbox" id="skill2" name="skill2">
+        <label for="vehicle2"> I have a skill2</label><br>
+        <input type="checkbox" id="skill3" name="skill3">
+        <label for="vehicle3"> I have a skill3</label><br><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required><br>
+        <label for="About">About Yourself:</label><br>
+        <textarea name="About" id="About" cols="30" rows="10"></textarea><br>
+        <label for="Register">Register:</label>
+        <input type="submit" value="Submit" onsubmit="">&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="reset">Reset:</label>
+        <input type="reset" value="Reset">
+    </form>
+</body>
+
+</html>
